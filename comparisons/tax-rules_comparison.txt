@@ -1,0 +1,33 @@
+Regra | Status
+--- | ---
+The tax record management system serves as the central repository for individual taxpayer information within our organization's financial processing infrastructure. | ENCONTRADA
+This comprehensive database maintains detailed records of taxpayer demographics, contact information, geographic data, marital status, dependency information, and critical tax calculation parameters. | ENCONTRADA
+The system supports daily operations across multiple departments, including payroll processing, tax compliance, audit functions, and financial reporting activities. | ENCONTRADA
+Staff members regularly interact with this data through various interfaces and workflows. | ENCONTRADA
+Each person is uniquely identified by area code and phone number. | ENCONTRADA
+The dataset captures essential demographic information including first and last names, gender classification, and complete contact details. | ENCONTRADA
+Geographic data encompasses city, state, and ZIP code information, which proves invaluable for regional analysis and compliance reporting. | ENCONTRADA
+Financial data includes salary information, tax rates, and various exemption amounts that directly impact tax calculations. | ENCONTRADA
+Geographic consistency represents a fundamental aspect of data quality within the system. | ENCONTRADA
+Two persons with the same ZIP code must live in the same state. | ENCONTRADA
+This relationship reflects the standardized postal system structure where ZIP codes are assigned within specific state boundaries. | ENCONTRADA
+For instance, all records showing ZIP code 80202 will consistently show Colorado as the state, maintaining data integrity across the entire dataset. | ENCONTRADA
+Location-specific validation extends beyond general geographic rules to include city-state relationships. | ENCONTRADA
+If a person lives in Denver, their state must be Colorado. | ENCONTRADA
+This type of validation ensures that well-known city-state pairs remain consistent throughout the database. | ENCONTRADA
+Quality assurance teams regularly review these relationships as part of routine data integrity assessments. | ENCONTRADA
+The system maintains sophisticated relationships between salary and tax rate information to ensure logical consistency in financial calculations. | ENCONTRADA
+Within the same state, a person with lower salary cannot have higher tax rate. | ENCONTRADA
+This principle reflects progressive tax structures where higher earners typically face higher rates within the same jurisdiction. | ENCONTRADA
+Exemption amounts play a crucial role in tax calculations and must maintain logical relationships with income levels. | ENCONTRADA
+A person single tax exemption cannot be greater than his salary. | ENCONTRADA
+Typically, exemptions represent a percentage or fixed amount that scales appropriately with income levels rather than exceeding total earnings. | ENCONTRADA
+Geographic-based processing rules ensure consistent treatment of taxpayers within specific areas. | ENCONTRADA
+Within the same ZIP code, one person cannot earn less but have a higher tax rate. | ENCONTRADA
+Customer service representatives regularly access records to verify taxpayer information during phone inquiries, using the area code and phone number combination to quickly locate specific individuals. | ENCONTRADA
+Data maintenance activities occur on regular schedules, with quality assurance teams performing systematic reviews of geographic consistency and financial data relationships. | ENCONTRADA
+These reviews help identify potential data entry errors before they impact critical business processes. | ENCONTRADA
+The organization maintains ongoing monitoring processes to ensure data quality and operational efficiency. | ENCONTRADA
+Regular reporting cycles provide visibility into data patterns and help identify trends that may require management attention. | ENCONTRADA
+Automated validation processes run continuously to flag potential inconsistencies before they impact downstream systems or customer interactions. | ENCONTRADA
+Ongoing education ensures that team members remain current with system capabilities and best practices for maintaining data quality standards. | ENCONTRADA
